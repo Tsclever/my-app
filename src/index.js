@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Hw from './Hw';
+import TodList from './TodList';
 import Photo from './MyFirstComponent';
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Photo />
     <Photo />
     <App />
+    <TodList />
   </React.StrictMode>,
   document.getElementById('root')
 );
