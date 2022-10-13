@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import Hw from './Hw';
+import Photo from './MyFirstComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     <Hw />
+    <Photo />
+    <Photo />
   </React.StrictMode>,
   document.getElementById('root')
 );
