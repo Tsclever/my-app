@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Hw from './Hw';
+import Avatar from './Avatar';
 import TodList from './TodList';
 import Photo from './MyFirstComponent';
 import reportWebVitals from './reportWebVitals';
@@ -12,8 +13,9 @@ ReactDOM.render(
     <Hw />
     <Photo />
     <Photo />
-    <App />
+    {/* <App /> */}
     <TodList />
+    <Avatar />
   </React.StrictMode>,
   document.getElementById('root')
 );
