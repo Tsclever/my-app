@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Avatar from './Avatar';
+import Card from './Card';
 import Profile from './MyFirstComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Profile />
+    <Card>
+      <Avatar
+        size={200}
+        person={{ 
+          name: 'Hedy Lamarr', 
+          imageId: 'yXOvdOSs'
+        }}
+      />
+    </Card>
   </React.StrictMode>,
   document.getElementById('root')
 );
