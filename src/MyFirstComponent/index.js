@@ -1,10 +1,30 @@
+import Avatar from '../Avatar';
+
 function Profile() {
   return (
-    <img
-      src="https://img2.baidu.com/it/u=2803505020,3611166250&fm=253&fmt=auto&app=138&f=JPEG?w=300&h=300.jpg"
-      alt="Katherine Johnson"
-    />
-  )
+    <>
+      <Avatar
+        size={200}
+        person={{ 
+          name: 'Katsuko Saruhashi', 
+          imageId: 'YfeOqp2s'
+        }}
+      />
+      <Avatar
+        size={150}
+        person={{
+          name: 'Aklilu Lemma', 
+          imageId: 'OKS67lhs'
+        }}
+      />
+      <Avatar
+        person={{ 
+          name: 'Lin Lanying',
+          imageId: '1bX5QH6s'
+        }}
+      />
+    </>
+  );
 }
 
 export default Profile;

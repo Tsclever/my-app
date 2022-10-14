@@ -1,21 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Hw from './Hw';
-import Avatar from './Avatar';
-import TodList from './TodList';
-import Photo from './MyFirstComponent';
+import Profile from './MyFirstComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hw />
-    <Photo />
-    <Photo />
-    {/* <App /> */}
-    <TodList />
-    <Avatar />
+    <Profile />
   </React.StrictMode>,
   document.getElementById('root')
 );
