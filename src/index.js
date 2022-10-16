@@ -1,25 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Item from './Item';
-import PackingList from './PackingList';
+import List from './List';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PackingList>
-        <Item 
-          isPacked={true} 
-          name="Space suit" 
-        />
-        <Item 
-          name="Helmet with a golden leaf" 
-        />
-        <Item 
-          isPacked={true} 
-          name="Photo of Tam" 
-        />
-    </PackingList>
+    <List />
   </React.StrictMode>,
   document.getElementById('root')
 );
