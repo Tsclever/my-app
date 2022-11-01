@@ -1,19 +1,10 @@
-const people = [
-  'Creola Katherine Johnson: mathematician',
-  'Mario José Molina-Pasquel Henríquez: chemist',
-  'Mohammad Abdus Salam: physicist',
-  'Percy Lavon Julian: chemist',
-  'Subrahmanyan Chandrasekhar: astrophysicist'
-];
+const words = ['a', 'ab', 'abc', 'abcd', 'abcde', 'abcdef', 'abcdefg'];
 
-function List() {
-  const listItems = people.map(person =>
-    <li>{person}</li>
-  );
+function List () {
+  const result = words.filter(word => word.length >= 6);
 
-  // console.log(listItems);
-
-  return <ul>{listItems}</ul>;
+  console.log(result);
+  // return result
 }
 
 export default List;
