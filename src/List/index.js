@@ -1,5 +1,6 @@
 import { people } from './data.js';
 import { getImageUrl } from './utils.js';
+// import { Fragment } from 'react';
 
 function List() {
   const chemists = people.filter(person =>
@@ -7,7 +8,8 @@ function List() {
   );
 
   const listItems = chemists.map(person =>
-    <li>
+    <li key={person.id}>
+      {/* <Fragment key={person.id}> */}
       <img
         src={getImageUrl(person)}
         alt={person.name}
@@ -18,6 +20,7 @@ function List() {
         {' ' + person.profession + ' '}
         known for {person.accomplishment}
       </p>
+      {/* </Fragment> */}
     </li>
   );
 
