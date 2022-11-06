@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import List from './List';
+import Button from './Button';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
 
-    <List />
+    <Button />
     
   </React.StrictMode>,
   document.getElementById('root')
