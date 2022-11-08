@@ -1,11 +1,11 @@
-function Button() {
+function Button({message, children}) {
     function hanleClick() {
-      alert("You clicked me!")
+      alert(message)
     }
       return(
         <button onClick={hanleClick}>
-        Click me!
-      </button>
+          {children}
+        </button>
     )
 }
 

@@ -7,7 +7,13 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
 
-    <Button />
+    <Button message="hello !~">
+    <span>sya hello !</span>
+    </Button>
+
+    <Button message="bye !~">
+    <span>say bye !</span>
+    </Button>
     
   </React.StrictMode>,
   document.getElementById('root')
