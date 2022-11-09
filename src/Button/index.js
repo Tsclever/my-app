@@ -1,12 +1,9 @@
-function Button({message, children}) {
-    function hanleClick() {
-      alert(message)
-    }
-      return(
-        <button onClick={hanleClick}>
-          {children}
-        </button>
-    )
+function Button({ onClick, children }) {
+  return (
+    <button onClick={onClick}>
+      {children}
+    </button>
+  );
 }
 
 export default Button;
