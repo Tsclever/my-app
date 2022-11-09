@@ -6,7 +6,7 @@ function PlayButton({ movieName }) {
   }
 
   return (
-    <Button onClick={handlePlayClick}>
+    <Button onWhatEver={handlePlayClick}>
       Play "{movieName}"
     </Button>
   );

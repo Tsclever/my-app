@@ -2,7 +2,7 @@ import Button from '../Button';
 
 function UploadButton() {
   return (
-    <Button onClick={() => alert('Uploading!')}>
+    <Button onWhatEver={() => alert('Uploading!')}>
       Upload Image
     </Button>
   );

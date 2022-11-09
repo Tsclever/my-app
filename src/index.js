@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Button from './Button';
+import Button from './Button';
 import PlayButton from './Button/PlayButton';
 import UploadButton from './Button/UploadButton';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +11,9 @@ ReactDOM.render(
 
     <PlayButton movieName="Kiki's Delivery Service" />
     <UploadButton />
-    
+    <br />
+    <Button onWhatEver={() => { alert('h1') }} > say hi </Button>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
