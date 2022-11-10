@@ -1,27 +1,27 @@
 import './ToolBar.css';
 
-function Toolbar() {
-  return (
+function ToolBar() {
+  return(
     <div
-      className="tool-bar"
-      onClickCapture={ () => {
-        alert('You clicked on the toolbar!');
+      className = "Toll-Bar"
+      onClick={() => {
+        alert('外围')
       }}
     >
-      <span
-        onClick={() => alert('Playing!')}
-        className="btn"
+      <span 
+        className = "btn"
+        onClick={() => alert('左')}
       >
-        Play Movie
+        左
       </span>
-      <span
-        onClick={() => alert('Uploading!')}
-        className="btn"
+      <span 
+        className = "btn"
+        onClick={() => alert('右')}
       >
-        Upload Image
+        右
       </span>
     </div>
-  );
+  )
 }
 
-export default Toolbar;
+export default ToolBar;
