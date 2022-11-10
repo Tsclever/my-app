@@ -1,6 +1,11 @@
 import './ToolBar.css';
 
 function ToolBar() {
+  function onClick(e) {
+    e.stopPropagation();
+    alert('左')
+  }
+
   return(
     <div
       className = "Toll-Bar"
@@ -10,7 +15,7 @@ function ToolBar() {
     >
       <span 
         className = "btn"
-        onClick={() => alert('左')}
+        onClick={onClick}
       >
         左
       </span>
