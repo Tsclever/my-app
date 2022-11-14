@@ -1,21 +1,16 @@
 import './ToolBar.css';
 
 function ToolBar() {
-  function onClick(e) {
-    e.stopPropagation();
-    alert('左')
-  }
-
   return(
     <div
       className = "Toll-Bar"
-      onClick={() => {
+      onClickCapture={() => {
         alert('外围')
       }}
     >
       <span 
         className = "btn"
-        onClick={onClick}
+        onClick={() => alert('左')}
       >
         左
       </span>
