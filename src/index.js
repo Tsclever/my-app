@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ToolBar from './ToolBar';
+import Signup from './Signup';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
 
-    <ToolBar />
+    <Signup />
 
   </React.StrictMode>,
   document.getElementById('root')
