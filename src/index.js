@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Signup from './Signup';
+import Gallery from './Gallery';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
 
-    <Signup />
+    <Gallery />
 
   </React.StrictMode>,
   document.getElementById('root')
